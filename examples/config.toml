@@ -1,0 +1,19 @@
+
+[Network]
+  Address = ":19134"
+
+[Server]
+  Name = "Dragonfly Server"
+  MaximumPlayers = 0
+  ShutdownMessage = "Server closed."
+
+[World]
+  Name = "World"
+  Folder = "world"
+  MaximumChunkRadius = 32
+  SimulationDistance = 8
+
+[Generator]
+  BdsAddress = "0.0.0.0:19132"
+  BdsPath = ""
+  ClientChunkRadius = 16
